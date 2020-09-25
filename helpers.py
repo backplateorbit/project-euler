@@ -12,5 +12,3 @@ def fibo_sequence(count=None, stop=None):
             fibos.append(next_fibo(fibos[-1], fibos[-2]))
 
     return fibos
-
-    
